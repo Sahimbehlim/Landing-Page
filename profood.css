@@ -1,0 +1,474 @@
+@import "all.css";
+html{
+	scroll-behavior:smooth;
+}
+body{
+	margin:0; padding:0;box-sizing: border-box;
+}
+header{
+	width: 100%;
+	background-color: white;
+	height: 100px;
+	top: 0;
+	padding-top: 5px;
+	position: fixed;
+}
+#profood{
+	color: #2d2640;
+	font-family:timesnewroman;
+	font-size: 40px;
+	margin-left: 120px;
+	margin-top: 20px;
+	font-weight:normal;
+}
+#proa{
+	text-decoration: none;
+}
+nav ul li{
+	list-style-type: none;
+	font-family: Karla,sans-serif;
+	margin-left: 850px;
+	margin-top: -75px;
+
+}
+nav ul li a {
+	text-decoration: none;
+	color:#6e6b74;
+	font-weight: bold;
+	float: left;
+	padding: 20px;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: #2d2640;
+}
+.viewplans{
+	border: 1px solid #6e6b74;
+	border-radius: 5px;
+	padding: 18px;
+}
+.viewplans:hover{
+	background-color: #2d2640;
+	color: white;
+}
+#sechome{
+	border: 0px solid white;
+	margin-top: 105px;
+	width: 100%;
+	height: 525px;
+	background-color: #2d2640;
+}
+#firsthr{
+	width: 200px;
+	margin-left: 120px;
+	margin-top: 30px;
+}
+#make{
+	font-size: 55px;
+	color: white;
+	font-family:timesnewroman;
+	font-weight: normal;
+	margin-left: 120px;
+	margin-top:15px;
+}
+#makep{
+	margin-left: 120px;
+	font-family: Karla,sans-serif;
+	font-size: 18px;
+	color: #bcb8c4;
+	font-weight: lighter;
+	margin-top: -10px;
+	line-height: 1.8;
+}
+#homeimg{
+	float: right;
+	margin-right: 160px;
+	margin-top: -200px;
+	width: 500px;
+	height: 565px;
+	object-fit: cover;
+}
+#viewplans{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 18px;
+	color: white;
+}
+#view li{
+	list-style-type: none;
+	font-family: Karla,sans-serif;
+	font-weight: bold;
+	margin-left: 80px;
+	margin-top: 50px;
+	font-size: 18px;
+}
+#view li a{
+	text-decoration: none;
+}
+#view li a:hover{
+	background-color: white;
+	color:#2d2640;
+}
+#mainimage{
+	width: 550px;
+	height: 500px;
+	margin-left: 120px;
+	margin-top: 165px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+#aboutfood{
+	float: right;
+	font-size: 50px;
+	color:#2d2640;
+	font-family:timesnewroman;
+	font-weight:normal;
+	margin-top: -400px;
+	margin-right: 350px;
+}
+#aboutp{
+	font-family: Karla,sans-serif;
+	font-size: 18px;
+	color: #6e6b74;
+	float: right;
+	margin-right: 195px;
+	margin-top: -310px;
+	line-height: 1.8;
+}
+#knowmore{
+	border: 1px solid #6e6b74;
+	border-radius: 5px;
+	padding: 18px;
+	color: #6e6b74;
+}
+#knowmor li{
+	list-style-type: none;
+	font-family: Karla,sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	float: right;
+	margin-right: 505px;
+	margin-top: -185px;
+}
+#knowmor li a {
+	text-decoration: none;
+}
+#knowmor li a:hover{
+	color: white;
+	background-color:#2d2640;
+}
+#secondhr{
+	width: 200px;
+	margin-left: 120px;
+	margin-top: 80px;
+}
+#wrd{
+	color: #2d2640;
+	font-family:timesnewroman;
+	font-size: 50px;
+	margin-left: 120px;
+	font-weight:normal;
+	margin-top: -1px;
+}
+.dish1{
+	margin-left: 120px;
+	margin-top: 40px;
+}
+.dish1 h2{
+	font-size: 30px;
+	color: #2d2640;
+	font-family:timesnewroman;
+	font-weight: normal;
+}
+.dish1 p{
+	font-size: 16px;
+	color: #6e6b74;
+	font-family: Karla,sans-serif;
+	margin-top: -10px;
+}
+.dish2{
+	margin-left: 520px;
+	margin-top: -195px;
+}
+.dish2 h2{
+	font-size: 30px;
+	color: #2d2640;
+	font-family:timesnewroman;
+	font-weight: normal;
+}
+.dish2 p{
+	font-size: 16px;
+	color: #6e6b74;
+	font-family: Karla,sans-serif;
+	margin-top: -10px;
+}
+.dish3{
+	margin-left: 920px;
+	margin-top: -195px;
+}
+.dish3 h2{
+	font-size: 30px;
+	color: #2d2640;
+	font-family:timesnewroman;
+	font-weight: normal;
+}
+.dish3 p{
+	font-size: 16px;
+	color: #6e6b74;
+	font-family: Karla,sans-serif;
+	margin-top: -10px;
+}
+#findout{
+	width: 1260px;
+	height: 250px;
+	background-color: #2d2640;
+	margin-left: 120px;
+	margin-top: 80px;
+}
+#findout h1{
+	font-size: 40px;
+	color: white;
+	font-family:timesnewroman;
+	font-weight: normal;
+	padding-left: 50px;
+	padding-top:65px;
+	line-height: 1.5;
+}
+#findout ul{
+	list-style-type: none; /*Best & Short Way To Make Link Buttons*/
+}
+.howwe{
+	border: 1px solid white;
+	padding: 18px;
+	text-decoration: none;
+	color: white;
+	font-family: Karla,sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius:5px;
+	float: right;
+	margin-right: 60px;
+	margin-top: -115px;
+}
+.howwe:hover{
+	background-color: white;
+	color: #2d2640;
+}
+footer h1{
+	margin-left: 120px;
+	font-family:timesnewroman;
+	font-weight: normal;
+	margin-top: 50px;
+}
+.logos{
+	margin-top: -50px;
+	float: right;
+	margin-right: 145px;
+}
+.lasthr{
+	width: 1260px;
+	margin-left: 120px;
+	margin-top: -10px;
+}
+footer nav{
+	text-align: center;
+	margin-top: 20px;
+}
+footer nav a{
+	text-decoration: none;
+	padding: 15px;
+	color: #6e6b74;
+	font-family: Karla,sans-serif;
+	font-size: 22px;
+}
+footer a:hover{
+	color:#2d2640;
+}
+.copyright{
+	width: 100%;
+	height: 100px;
+	background-color: #2d2640;
+	margin-top: 25px;
+}
+footer h2{
+	font-size: 20px;
+	color:#cbc9c9;
+	font-family: Karla,sans-serif;
+	text-align: center;
+	padding-top: 40px;
+	font-weight: normal;
+}
+
+@media screen and (max-width: 505px){
+
+header{
+	height: 140px;
+
+}
+#profood{
+		font-size: 30px;
+		margin-left: 20px;
+}
+	#firstnav ul li{
+		margin-left: -40px;
+		margin-top: -15px;
+}
+	#firstnav a{
+		font-size: 17px;
+}
+	#sechome{
+		width: 100%;
+		height: 450px;
+		margin-top: 145px;
+}
+	#firsthr{
+		width: 150px;
+		margin-left: 20px;
+		margin-top: 10px;
+}
+	#make{
+		font-size: 30px;
+		margin-left:20px;
+}
+	#makep{
+		font-size: 15px;
+		margin-top: -10px;
+		margin-left: 20px;
+}
+	#homeimg{
+		float: right;
+		margin-right: 15px;
+		margin-top: -20px;
+		width: 200px;
+		height: 270px;
+		object-fit: cover;
+		border-radius: 5px;
+		object-position:bottom;
+}
+	#viewplans{
+	padding: 10px;
+}
+	#view li{
+	margin-left: -20px;
+	margin-top: 30px;
+	font-size: 17px;
+}
+	#mainsec{
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+}
+	#mainimage{
+		float: right;
+		margin-right: 15px;
+		margin-top: 100px;
+		width: 200px;
+		height: 270px;
+		object-fit: cover;
+		border-radius: 5px;
+}
+	#aboutfood{
+	font-size: 30px;
+	margin-left: 20px;
+	float:left;
+	color: #2d2640;
+	white-space: nowrap;
+	padding-top: 90px;
+}
+	#aboutp{
+	font-size: 15px;
+	margin-left: 20px;
+	float: left;
+	color: #6e6b74;
+	max-width: 230px;
+	text-align: justify-all;
+	padding-top: 50px;
+}
+	#knowmor li{
+	font-size: 17px;
+	float: left;
+	margin-left: -20px;
+	margin-top: -70px;
+}
+	#knowmore{
+	padding: 10px;
+	white-space: nowrap;
+}
+	#knowmor li a:hover{
+	background-color: #2d2640;
+	color:white;
+}
+	#secondhr{
+	width: 150px;
+	margin-left: 20px;
+	margin-top: 400px;
+}
+	#wrd{
+	font-size: 30px;
+	margin-left: 20px;
+}
+	.dish1{
+	margin-left: 20px;
+	width: 90%;
+}
+	.dish1 h2{
+	font-size: 25px;
+}
+	.dish2{
+	margin-left: 20px;
+	margin-top: 40px;
+	width: 90%;
+	}
+	.dish2 h2{
+	font-size: 25px;
+}
+	.dish3{
+	margin-left: 20px;
+	margin-top: 40px;
+	width: 90%;
+	}
+	.dish3 h2{
+	font-size: 25px;
+}
+	#findout{
+	width: 90%;
+	height: 200px;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+	#findout h1{
+	font-size: 30px;
+	padding-left: 30px;
+	padding-top:25px;
+	}
+	.howwe{
+	padding: 10px;
+	font-size: 15px;
+	float: left;
+	margin-left: -10px;
+	margin-top: -5px;
+}
+	footer h1{
+	margin-left: 20px;
+	font-size: 30px;
+}
+	.logos{
+	margin-right: 30px;
+}
+	.lasthr{
+	width: 90%;
+	margin-left: 20px;
+}
+	footer nav a{
+	padding: 15px;
+	font-size: 15px;
+}
+	.copyright{
+	width: 100%;
+	height: 50px;
+}
+	footer h2{
+		font-size: 15px;
+		padding-top: 18px;
+}
+}
