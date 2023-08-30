@@ -1,2 +1,3 @@
-# Landing-Page
-Landing Page Using HTML & CSS
+• Page Structured Using HTML
+• Designed Using CSS
+• Font Used From Font Awesome
